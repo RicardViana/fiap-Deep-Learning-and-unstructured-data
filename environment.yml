@@ -1,0 +1,19 @@
+name: ambiente_fase_5_deep_learning
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - seaborn
+  - matplotlib
+  - numpy
+  - scikit-learn
+  - openpyxl
+  - tqdm
+  - ipykernel
+  - ipywidgets
+  - opencv
+  - pip
+  - pip:
+    - tensorflow
