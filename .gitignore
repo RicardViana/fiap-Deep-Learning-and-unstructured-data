@@ -6,9 +6,11 @@
 !*.py
 !.gitignore
 !README.md
+!*.yml
+!*yaml
+
+# Ignorar .zip
 *.zip
-*.yml
-*yaml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
