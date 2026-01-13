@@ -16,4 +16,5 @@ dependencies:
   - opencv
   - pip
   - pip:
+    - gdown
     - tensorflow
