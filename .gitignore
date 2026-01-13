@@ -12,6 +12,9 @@
 # Ignorar .zip
 *.zip
 
+# Ignonar o config
+config.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
