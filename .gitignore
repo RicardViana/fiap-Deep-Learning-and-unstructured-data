@@ -7,7 +7,8 @@
 !.gitignore
 !README.md
 !*.yml
-!*yaml
+!*.yaml
+!*.toml
 
 # Ignorar .zip
 *.zip
