@@ -1,0 +1,24 @@
+[project]
+name = "fase-5-deep-learning"
+version = "0.1.0"
+description = "Ambiente de Deep Learning refatorado para UV"
+requires-python = "==3.10.*"
+dependencies = [
+    "pandas",
+    "seaborn",
+    "matplotlib",
+    "numpy",
+    "scikit-learn",
+    "openpyxl",
+    "tqdm",
+    "ipykernel",
+    "ipywidgets",
+    "opencv-python",
+    "nltk",
+    "gdown",
+    "tensorflow",
+    "wordcloud",
+    "minisom",
+    "imageio",
+    "Pillow",
+]
