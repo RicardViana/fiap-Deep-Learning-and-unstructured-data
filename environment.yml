@@ -15,6 +15,8 @@ dependencies:
   - ipywidgets
   - opencv
   - nltk
+  - gensim
+  - spacy
   - pip
   - pip:
     - gdown
@@ -23,3 +25,4 @@ dependencies:
     - minisom
     - imageio
     - Pillow
+    - pt-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/pt_core_news_sm-3.7.0/pt_core_news_sm-3.7.0-py3-none-any.whl

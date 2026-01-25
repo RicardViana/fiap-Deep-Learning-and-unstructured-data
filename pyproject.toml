@@ -1,7 +1,7 @@
 [project]
 name = "fase-5-deep-learning"
 version = "0.1.0"
-description = "Ambiente de Deep Learning refatorado para UV"
+description = "Ambiente de Deep Learning e PLN refatorado"
 requires-python = "==3.10.*"
 dependencies = [
     "pandas",
@@ -21,4 +21,11 @@ dependencies = [
     "minisom",
     "imageio",
     "Pillow",
+    "gensim",
+    "spacy",
 ]
+
+[tool.uv]
+index-url = "https://pypi.org/simple"
+# Comando para instalar o modelo do spacy após a instalação:
+# uv pip install https://github.com/explosion/spacy-models/releases/download/pt_core_news_sm-3.7.0/pt_core_news_sm-3.7.0-py3-none-any.whl
